@@ -1,0 +1,1240 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atomic+Age&family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atomic+Age&family=Audiowide&family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atomic+Age&family=Audiowide&family=Orbitron:wght@400..900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atomic+Age&family=Audiowide&family=Orbitron:wght@400..900&family=Satisfy&family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atomic+Age&family=Audiowide&family=Macondo&family=Orbitron:wght@400..900&family=Satisfy&family=Unbounded:wght@200..900&display=swap');
+
+body {
+        background-image:url(./sample.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: black;
+        color: white;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.content{
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    margin-top: 3%;
+}
+.content img{
+    width: 50vw;
+    height: auto;
+    max-width: 100%;
+    margin-top: 5%;
+    
+}
+
+.content2{
+    margin-top: 10%;
+    text-align: center;
+}
+.content2 h2{
+  font-size: 22px;
+  font-family: "ORBITRON", sans-serif;
+  color: #fff;
+  font-weight: 300;
+  
+}
+.content2 h3{
+    text-align: center;
+    font-family: "ORBITRON", serif;
+}
+.content2 img {
+        display: block;
+        width: 600px;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15%;
+        margin-bottom: 15%;
+}
+.content2 h1{
+    text-align: center;
+    font-family: "ORBITRON", sans-serif;
+    font-size: 20PX;
+}
+
+.lanuch-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  padding: 20px;
+  background: linear-gradient(to left,purple,darkblue);
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1),
+              -10px -10px 20px rgba(255, 255, 255, 0.5);
+  margin-top: 5%;
+  margin-bottom: 10%;
+  font-family: "MACONDO", sans-serif;;
+}
+
+.lanuch-time > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.lanuch-time p {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 10px;
+  color: black;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  
+}
+
+.lanuch-time span {
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(14, 14, 14);
+  font-family: "orbitron", sans-serif;;
+}
+
+.lanuch-time p, .lanuch-time span {
+  transition: all 0.3s ease-in-out;
+}
+
+.lanuch-time p:hover {
+  transform: scale(1.1);
+  
+}
+
+#about{
+    margin-top: 5%;
+    margin: 10px;
+    text-align:center;
+    
+}
+#about h2{
+    font-size: 28px;
+    font-weight: 200;
+    font-family: "Atomic Age", system-ui;
+    background-color: #e50042;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: 0.3 ease;
+    margin-top: 5%;
+   
+}
+#about h2:hover{
+    color: black;
+}
+
+#about p{
+    font-size: 28px;
+    font-weight: 100;
+    font-family: "MACONDO", system-ui;
+    text-align:justify;
+    margin-top: 5%;
+    font-weight: 800;
+}
+#about ol li{
+    font-size: 25px;
+    font-weight: 700;
+   font-family: "MACONDO", system-ui;
+    margin:15px;
+    line-height:1rem;
+    list-style:none;
+    color:yellow;
+}
+#about span{
+    color: aqua;
+    font-weight: 300;
+}
+.emerge{
+    text-align: center;
+}
+.emerge img{
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+    display: inline-block;
+}
+#Events{
+    margin-top: 5%;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#Events h2{
+    font-size: 28px;
+    font-weight: 200;
+    font-family: "Atomic Age", system-ui;
+    background-color: #e50042;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: 0.3 ease;
+}
+#Events h2:hover{
+    color: black;
+}
+#Events h3{
+    font-size: 40px;
+    font-weight: 800;
+   font-family: "MACONDO", system-ui;
+    background:transparent;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#Events p{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "satisfy", system-ui;
+    text-align:justify;
+    margin-left: 23px;
+    
+}
+.fab.fa-envelope{
+  font-size: 24px;
+}
+#Events ol li  {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: "satisfy", system-ui;
+    list-style:none;
+    gap: 10px;
+    text-align:justify;
+    margin-bottom:10px;
+}
+#Events h6{
+    font-size: 17px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: "satisfy", system-ui;
+}
+#Events h4{ 
+  background-color: #edbb99;
+  padding: 10px;
+  display: inline-block;
+  color:black;
+  border-radius: 9%;
+  margin-bottom: 10px;
+  font-family: "ORBITRON", system-ui;
+ 
+}
+#Events a{
+  color: black;
+  text-decoration: none;
+  background-color: #ffd700;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10%;
+  text-align:center;
+  font-family: "orbitron", system-ui;
+}
+.outer-box {
+    background-color:#8f002a;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(188, 186, 186, 0.1);
+    margin: 20px;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .outer-box img{
+    width: 350px;
+    height: 350px;
+    max-width: 100%;
+    display: inline-block;
+    margin-bottom: 3%;
+    border-radius: 5%;
+  }
+  .outer-box h3 {
+    margin-top: 0;
+  }
+  
+  .outer-box p {
+    margin-bottom: 20px;
+    font-family: "Merriweather", serif;
+
+  }
+  .outer-box ol {
+    font-size: 15PX;
+    text-align: justify;
+  }
+  
+  .outer-box li {
+    margin-bottom: 10px;
+    font-size: 15PX;
+    text-align: justify;
+  }
+  
+  .outer-box i {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  .outer-box h6{
+    font-size: 7px;
+    font-weight: 300;
+  }
+
+
+  .clg {
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+  .clg h2 {
+    font-size: 28px;
+    font-weight: 200;
+    font-family: "Atomic Age", system-ui;
+    background-color: #e50042;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    border-radius: 5%;
+    transition: 0.3 ease;
+    margin-bottom: 5%;
+  }
+  .clg h2:hover {
+      color: black;
+    }
+  
+  .clg img {
+    width: 350px;
+    height: 350px;
+    max-width: 100%;
+    display: inline-block;
+    margin-bottom: 5%;
+    border-radius: 5%;
+  }
+  
+  .clg p {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "satisfy", system-ui;
+    color: white;
+    text-align:justify;
+    margin-left: 23px;
+    margin-bottom: 20px;
+  }
+  
+  .clg a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding:30px;
+    display: inline-block;
+    border-radius: 5%;
+    text-align:center;
+    font-family: "orbitron", system-ui;
+  }
+  
+  .clg a:hover {
+    color: grey;
+  }
+  
+  .member{
+    background:linear-gradient(to left,#008080,#001f3f);
+    padding: 8px;
+    display: inline-block;
+    color:#FFF;
+    width: 200px;
+    height: 192px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+  .member h6{
+    color: #fff;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top:10px ;
+  }
+  h5{
+    font-family: "Bebas Neue", sans-serif;
+    color:#000000;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#Venue{
+    margin-top: 5%;
+    margin-left: 20px;
+    text-align: center;
+}
+.Venue{
+    margin-top: 5%; 
+}
+.Venue img{
+    width: 350px;
+    height: 350px;
+    max-width: 100%;
+    display: inline-block;
+}
+#Venue h2{
+    font-size: 28px;
+    font-weight: 200;
+    font-family: "Atomic Age", system-ui;
+    background-color: #e50042;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3 ease;
+}
+#Venue h2:hover{
+    color: black;
+}
+#Venue p{
+    font-size: 25px;
+    font-weight: 100;
+    text-align: center;
+    font-family: "MACONDO", sans-serif;
+    color:black;
+    font-weight: 600;
+}
+
+
+.rules {
+  padding: 20px;
+  color: white;
+  text-align: center;
+  margin: 5%;
+
+ 
+}
+
+.rules h2 {
+    font-size: 24px;
+    font-weight: 200;
+    font-family: "Atomic Age", system-ui;
+    background-color: #e50042;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.rules h2:hover{
+  color: #000000;
+}
+
+
+.rules ol {
+  list-style: none;
+}
+
+
+.rules li {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  font-family: "orbitron", system-ui;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+.rules hr.above-list {
+  border: none;
+  border-top: 3px solid #ccc;
+  margin: 20px auto;
+  width: 100%;
+}
+#us {
+  padding: 20px;
+  color: white;
+  text-align: center;
+  margin: 5%;
+
+}
+
+#us h2 {
+  font-size: 24px;
+  font-weight: 200;
+  font-family: "Atomic Age", system-ui;
+  background-color: #e50042;
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+#us h2:hover{
+  color: #000000;
+}
+
+#us p {
+  padding-top: 20px;
+  font-size: 25px;
+  font-weight: 100;
+  text-align: center;
+  font-family: "MACONDO", sans-serif;
+}
+
+
+
+#Contact {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-left: 20px;
+    text-align: center;
+}
+.staff{
+  margin-top: 5%; 
+  margin-left: 20px;
+  text-align: center;
+}
+.staff h2{
+  font-size: 28px;
+  font-weight: 200;
+  font-family: "Atomic Age", system-ui;
+  background-color: #e50042;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: 0.3 ease;
+}
+
+.staff h2:hover{
+    color: black;
+}
+.staff h3{
+    margin-top: 3%; 
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "MACONDO", system-ui;
+    text-align:center;
+    color: white;
+}
+.staff p{
+  font-family: "ORBITRON", sans-serif;
+   color: white;
+}
+.leftcontent {
+  margin-top: 5%; 
+  padding-bottom: 15%;
+  text-align: center;
+}
+.leftcontent  h2{
+  font-size: 28px;
+  font-weight: 200;
+  font-family: "Atomic Age", system-ui;
+  background-color: #e50042;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: 0.3 ease;
+}
+
+.leftcontent h2:hover{
+    color: black;
+}
+.leftcontent p{
+  margin-top: 3%; 
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "orbitron", system-ui;
+    text-align:center;
+    margin-right: 5%;
+}
+.leftcontent SPAN{
+    color: aqua;
+    font-family: "MACONDO", sans-serif;
+    text-align:justify;
+    font-size: 18PX;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.staff {
+  position: relative;
+  left: -100%; 
+  transition: left 0.5s ease-in-out; 
+}
+
+.leftcontent {
+  position: relative;
+  right: -100%; 
+  transition: right 0.5s ease-in-out; 
+}
+
+.staff.animate {
+  left: 0; 
+}
+
+.leftcontent.animate {
+  right: 0; 
+}
+#footer {
+  background-color: black;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  gap: 10%;
+}
+
+#footer h2{
+  font-size: 24px;
+  font-weight: 200;
+  font-family: "orbitron", system-ui;
+  color: #fff;
+  text-align:center;
+  padding-bottom: 10px;
+}
+#footer h3, #footer h4 {
+  margin-bottom: 5px;
+  padding-bottom: 30px;
+  font-family: "orbitron", system-ui;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+
+#footer a {
+  text-decoration: none;
+  color: white;
+  text-decoration: underline;
+}
+
+#footer a:hover {
+  color: #333;
+}
+#footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer li {
+  margin-right: 20px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.right, .left {
+  width: 45%;
+}
+
+.item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item li {
+  margin-bottom: 10px;
+  flex: 1;
+}
+
+.item a {
+  text-decoration: none;
+  color: white;
+  text-decoration: underline;
+  font-family:"orbitron", system-ui; 
+}
+
+#item a:hover {
+  color: #333;
+}
+
+#footer hr {
+  border: none;
+  height: 3px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(15, 221, 248, 0.5), rgba(0, 0, 0, 0));
+}
+
+#footer h4 {
+  margin-top: 20px;
+}
+
+#footer h3:last-child {
+  font-size: 16px;
+  color: #666;
+  margin-top: 20px;
+}
+.banner {
+  margin: 0;
+  padding: 0; 
+  text-align: center; 
+}
+
+.banner h3 {
+  font-family:"orbitron", system-ui; 
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.banner span {
+  font-family:"orbitron", system-ui; 
+  color: red; 
+  font-weight: bold;
+}
+
+.banner .btn {
+  background-color: black;
+  border: solid #ccc;
+  color: #ffffff;
+  padding: 20px 40px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+.banner a{
+  text-decoration: none;
+  color: white;
+  font-family:"orbitron", system-ui;
+}
+
+.banner .btn:hover {
+  color: #000000;
+  background-color: aqua; 
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  object-fit: cover;
+  margin-bottom: 10%;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: #f9f9f9;
+   
+}
+
+header {
+  background-color: #000000;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.logo {
+  margin-right: auto;
+  
+}
+
+.logo h3 {
+  color: #fff;
+  font-weight: 400;
+  font-family: 'ORBITRON',sans-serif;
+ 
+}
+
+.logo span {
+  font-weight: 300;
+  color: orangered;
+  font-family: 'MACONDO',sans-serif;
+}
+
+.toggle-btn {
+  display: none;
+  cursor: pointer;
+  margin-left: auto;
+  margin-top: -80%;
+}
+
+.close-btn {
+  display: none;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  margin-right: 20px;
+  font-family: "MACONDO", system-ui;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: orangered;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #000000;
+  }
+
+  .logo {
+    margin-right: auto;
+    margin-top: 10px;
+
+  }
+  .toggle-btn {
+    display: block;
+    font-size: 24px;
+    margin-left: auto;
+    margin-top: -70%;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: black;
+    padding: 5px;
+    transform: translateX(250px);
+    transition: transform 0.3s ease-in-out;
+  }
+  nav ul {
+    flex-direction: column;
+    padding-top: 30px;
+  }
+  nav ul li {
+    margin-right: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #666;
+    text-decoration: underline;
+    display: inline block;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    list-style: none;
+    
+  }
+  nav ul li a {
+    font-size: 18px;
+  }
+  .close-btn {
+    display: block;
+    font-size: 24px;
+    margin-top:-335px;
+  }
+  .lanuch-time p {
+    font-size: 32px;
+    padding: 7px 15px;
+    margin: 7px;
+  }
+
+  .lanuch-time span {
+    font-size: 16px;
+    margin: 3px;
+  }
+
+nav.active {
+  transform: translatey(0);
+}
+.staff {
+  left: -75%; 
+  width: 75%; 
+}
+.leftcontent {
+  right: -75%; 
+  width: 75%;}
+.clg {
+  padding: 15px;
+  margin: 15px;
+}
+.clg h2 {
+  font-size: 24px;
+}
+.clg img {
+  width: 250px;
+  height: 250px;
+}
+.clg p {
+  font-size: 24px;
+  margin-left: 15px;
+}
+.clg a {
+  padding: 8px;
+}
+.staff {
+  left: -75%; 
+}
+.leftcontent {
+  right: -75%; 
+}
+
+}
+
+
+@media only screen and (max-width: 480px) {
+ 
+  .content {
+    height: 20px;
+    margin-top: 5%;
+  }
+  .content2 h2 {
+    font-size: 18px;
+  }
+  .content img {
+    width: 110vw;
+    height: auto;
+  }
+  .content2 {
+    margin-top: 15%;
+  }
+  .content2 h2, .content2 h3 {
+    font-size: 18px;
+  }
+  .content2 img {
+    width: 250px;
+    height: 250px;
+
+  }
+  .lanuch-time > div {
+    flex-direction: column; 
+  }
+
+  .lanuch-time p {
+    font-size: 18px;
+    padding: 10px 10px;
+  }
+
+  .lanuch-time span {
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+    font-style: italic}
+  
+  #about {
+    margin-top: 10%;
+    margin-left: 10px;
+    text-align: center;
+    gap: 20px;
+   
+  }
+  #about h2 {
+    font-size: 18px;
+    text-align:center;
+  }
+  #about p{
+    font-size: 18px;
+    text-align:justify;
+  }
+
+  #about ol li {
+    list-style: none;
+    text-align:center;
+    color:yellow;
+    font-size: 18px;
+  }
+  #Events {
+    margin-top: 10%;
+    margin-left: 10px;
+    
+  }
+  #Events h2 {
+    font-size: 20px;
+  }
+  #Events h3 {
+    font-size: 25px;
+  }
+  #Events p  {
+    font-size: 18px;
+    text-align: justify;
+    margin-right: 10%;
+  }
+  #Events ol li{
+    font-size: 18px;
+    list-style: none;
+    margin-right: 10%;
+    text-align: justify;
+    
+  }
+  #Events h6{
+    font-size: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.outer-box {
+  padding-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(188, 186, 186, 0.1);
+}
+.outer-box img{
+  width: 250px;
+  height: 250px;
+
+}
+.clg {
+  padding: 10px;
+  margin: 10px;
+}
+.clg h2 {
+  font-size: 20px;
+}
+.clg img {
+  width: 250px;
+  height: 250px;
+}
+.clg p {
+  font-size: 18px;
+  margin-left: 10px;
+}
+.clg a {
+  padding: 6px;
+}
+  #Venue {
+    margin-top: 10%;
+    margin-left: 10px;
+    text-align: center
+  }
+  .Venue img {
+    width: 200px;
+    height: 200px;
+  }
+  #Venue h2 {
+    font-size: 22px;
+    
+  }
+  #Venue p {
+    font-size: 20px;
+  }
+  .staff {
+    left: 0%; 
+  }
+  .leftcontent {
+    right: 0%; 
+  }
+  #Contact{
+    background:transparent;
+    padding: 8px;
+    display: inline-block;
+    color:#FFF;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+
+  }
+  .staff {
+    margin-left: 5%;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .staff h2{
+    font-size: 22px;
+    text-align: center;
+  }
+  .staff h3{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .staff p{
+    font-family: "ORBITRON", sans-serif;
+    color:white;
+    font-weight: 800;
+    padding-left: -15%;
+  }
+  .leftcontent{
+    margin-left: 5%;
+    width: 100%;
+    padding: 10%;
+  }
+  
+  .leftcontent h2 {
+    font-size: 22px;
+  }
+  .leftcontent p {
+    margin-top: 10%;
+    font-size: 23px;
+  }
+  #footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    gap: 10%;
+  }
+  
+  #footer h2{
+    font-size: 24px;
+    font-weight: 200;
+    font-family: "orbitron", system-ui;
+    color: #fff;
+    text-align: justify;
+    padding-bottom: 10px;
+  }
+  #footer h3, .footer h4 {
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    font-family: "orbitron", system-ui;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+  }
+  
+  #footer a {
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+  }
+  
+  #footer a:hover {
+    color: #333;
+  }
+  #footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #footer li {
+    margin-right: 20px;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  .right, .left {
+    width: 45%;
+  }
+  
+  .item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .item li {
+    margin-bottom: 10px;
+    flex: 1;
+  }
+  
+  .item a {
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+    font-family:"orbitron", system-ui; ;
+  }
+  
+  .item a:hover {
+    color: #333;
+  }
+  
+  #footer hr {
+    border: none;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(15, 221, 248, 0.5), rgba(0, 0, 0, 0));
+  }
+  
+  #footer h4 {
+    margin-top: 20px;
+  }
+  
+  
+  #footer h3:last-child {
+    font-size: 16px;
+    color: #666;
+    margin-top: 20px;
+  }  
+
+  .banner h3 {
+    font-size: 18px;
+  }
+
+  .banner span {
+    font-size: 16px;
+  }
+
+  .banner .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .banner img {
+    margin-top: 10px;
+    margin-bottom: 5%;
+  } 
+  .banner h3 {
+   
+    font-size: 24px;
+  }
+
+  .banner span {
+    font-size: 20px;
+    color: aqua;
+  }
+
+  .banner .btn {
+    
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .banner img {
+    object-fit: cover;
+   
+  }
+
+}
